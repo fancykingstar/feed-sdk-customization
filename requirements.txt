@@ -2,5 +2,3 @@ urllib3
 certifi
 aenum
 pandas
-SQLAlchemy
-PyMySQL
