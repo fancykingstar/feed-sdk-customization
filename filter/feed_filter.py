@@ -214,13 +214,14 @@ class FeedFilterRequest(object):
                     # chunk_df_filtered_data = chunk_df_filtered.head()
                     # self.__number_of_records = self.__number_of_records + len(chunk_df_filtered_data.index)
                     # chunk_df_filtered_data.to_sql(DB_TABLE_NAME, disk_engine, if_exists='append', index=False)
-                    chunk_num = chunk_num + 1
-                    print(chunk_num)
-            execution_time = time.time() - start
-            print(execution_time)
-            return True
+            #         chunk_num = chunk_num + 1
+            #         print(chunk_num)
+            # execution_time = time.time() - start
+            # print(execution_time)
+            # return True
         # except Exception as ex:
         #     logging.info(f'Error occurs in parse_page : {ex}')
+        return True
 
     def __save_filtered_data_frame(self, data_frame):
         self.__filtered_file_path = self.__derive_filtered_file_path()
