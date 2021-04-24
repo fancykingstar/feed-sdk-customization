@@ -1,0 +1,20 @@
+{
+  "requests": [
+    {
+      "feedRequest": {
+        "categoryId": "6000",
+        "marketplaceId": "EBAY_US",
+        "feedScope": "ALL_ACTIVE",
+        "type": "ITEM"
+      },
+      "filterRequest": {
+        "leafCategoryIds": [
+          "6028",
+        ],
+        "itemLocationCountries": [
+          "US"
+        ]
+      }
+    }
+  ]
+}

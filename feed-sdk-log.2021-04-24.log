@@ -1,0 +1,85 @@
+2021-04-24 16:27:05,058 - feed.feed_request - INFO - Downloading... 
+categoryId: 6000 | marketplace: EBAY_US | date: 20210424 | feed_scope: ALL_ACTIVE | environment: PRODUCTION 
+
+2021-04-24 16:27:05,058 - feed.feed_request - INFO - Chunk size: 104857600
+
+2021-04-24 16:27:05,063 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.ebay.com:443
+2021-04-24 16:27:05,969 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "POST /identity/v1/oauth2/token HTTP/1.1" 200 None
+2021-04-24 16:27:05,971 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): api.ebay.com:443
+2021-04-24 16:27:07,199 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
+2021-04-24 16:27:32,050 - feed.feed_request - INFO - API call #1
+
+2021-04-24 16:27:33,350 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
+2021-04-24 16:27:56,958 - feed.feed_request - INFO - API call #2
+
+2021-04-24 16:27:58,252 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
+2021-04-24 16:29:25,424 - feed.feed_request - INFO - API call #3
+
+2021-04-24 16:29:26,612 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
+2021-04-24 16:29:49,489 - feed.feed_request - INFO - API call #4
+
+2021-04-24 16:29:50,866 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
+2021-04-24 16:30:11,919 - feed.feed_request - INFO - API call #5
+
+2021-04-24 16:30:19,475 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
+2021-04-24 16:31:03,510 - feed.feed_request - INFO - API call #6
+
+2021-04-24 16:31:05,131 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
+2021-04-24 16:31:28,048 - feed.feed_request - INFO - API call #7
+
+2021-04-24 16:31:29,495 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
+2021-04-24 16:31:53,238 - feed.feed_request - INFO - API call #8
+
+2021-04-24 16:31:54,776 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
+2021-04-24 16:32:18,771 - feed.feed_request - INFO - API call #9
+
+2021-04-24 16:32:23,121 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
+2021-04-24 16:32:48,630 - feed.feed_request - INFO - API call #10
+
+2021-04-24 16:32:51,925 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
+2021-04-24 16:33:14,714 - feed.feed_request - INFO - API call #11
+
+2021-04-24 16:33:16,076 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
+2021-04-24 16:33:37,601 - feed.feed_request - INFO - API call #12
+
+2021-04-24 16:33:38,877 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
+2021-04-24 16:34:02,230 - feed.feed_request - INFO - API call #13
+
+2021-04-24 16:34:03,613 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
+2021-04-24 16:34:26,565 - feed.feed_request - INFO - API call #14
+
+2021-04-24 16:34:27,768 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
+2021-04-24 16:34:54,642 - feed.feed_request - INFO - API call #15
+
+2021-04-24 16:34:56,037 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
+2021-04-24 16:35:18,787 - feed.feed_request - INFO - API call #16
+
+2021-04-24 16:35:20,157 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
+2021-04-24 16:35:41,931 - feed.feed_request - INFO - API call #17
+
+2021-04-24 16:35:43,488 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
+2021-04-24 16:36:05,576 - feed.feed_request - INFO - API call #18
+
+2021-04-24 16:36:06,951 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
+2021-04-24 16:37:09,708 - urllib3.util.retry - DEBUG - Incremented Retry for (url='/buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE'): Retry(total=2, connect=None, read=None, redirect=None, status=None)
+2021-04-24 16:37:09,708 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProtocolError('Connection broken: IncompleteRead(45601046 bytes read)', IncompleteRead(45601046 bytes read))': /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE
+2021-04-24 16:37:09,708 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (2): api.ebay.com:443
+2021-04-24 16:37:11,261 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
+2021-04-24 16:37:37,044 - feed.feed_request - INFO - API call #19
+
+2021-04-24 16:37:38,472 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
+2021-04-24 16:38:19,748 - feed.feed_request - INFO - API call #20
+
+2021-04-24 16:38:23,953 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
+2021-04-24 16:38:47,811 - feed.feed_request - INFO - API call #21
+
+2021-04-24 16:38:53,566 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
+2021-04-24 16:39:19,658 - feed.feed_request - INFO - API call #22
+
+2021-04-24 16:39:20,943 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
+2021-04-24 16:39:42,594 - feed.feed_request - INFO - API call #23
+
+2021-04-24 16:39:46,589 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
+2021-04-24 16:40:51,741 - feed.feed_request - INFO - API call #24
+
+2021-04-24 16:40:57,193 - urllib3.connectionpool - DEBUG - https://api.ebay.com:443 "GET /buy/feed/v1_beta/item?category_id=6000&feed_scope=ALL_ACTIVE HTTP/1.1" 206 None
